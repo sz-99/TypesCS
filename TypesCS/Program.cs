@@ -63,7 +63,11 @@ namespace TypesCS
             //Console.WriteLine(ReferenceEquals(myFruit1, myFruit2));
             //Console.WriteLine(myFruit1.GetHashCode());
 
-            Task06.userChar(); 
+            //Task06.userChar(); 
+
+            Task10a.takeStudentInfo();
+
+
         }
     }
 }
