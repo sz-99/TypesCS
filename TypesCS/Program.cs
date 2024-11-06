@@ -1,4 +1,6 @@
-﻿namespace TypesCS
+﻿using System.Xml;
+
+namespace TypesCS
 {
     class Program
     {
@@ -35,25 +37,33 @@
             //int myInt = Int32.Parse(myString);
             //Console.WriteLine(myInt);
             ////int mySecondInt = Int32.TryParse(myString,)
-         
+
             //int a;
-            string myStr = "12";
-            //int.TryParse(myStr, out a);
-            //Console.WriteLine( " a: " + a );
+            //string myStr = "12";
+            ////int.TryParse(myStr, out a);
+            ////Console.WriteLine( " a: " + a );
 
-            int intThree = Convert.ToInt32(myStr);
-            Console.WriteLine(intThree);
+            //int intThree = Convert.ToInt32(myStr);
+            //Console.WriteLine(intThree);
 
-            string myDecimalString = "1.801";
-            decimal myDec = Convert.ToDecimal(myDecimalString);
-            Console.WriteLine(myDec);
+            //string myDecimalString = "1.801";
+            //decimal myDec = Convert.ToDecimal(myDecimalString);
+            //Console.WriteLine(myDec);
 
+            // Task06.userInput(); 
 
+            //Fruit myFruit1 = new Fruit("Pear", "Green");
+            //Fruit myFruit2 = new Fruit("Banana", "Yellow");
 
+            //Fruit fruit1Copy = myFruit1;
 
+            //Console.WriteLine(myFruit1.GetType());
 
+            //Console.WriteLine(ReferenceEquals(myFruit1, fruit1Copy));
+            //Console.WriteLine(ReferenceEquals(myFruit1, myFruit2));
+            //Console.WriteLine(myFruit1.GetHashCode());
 
-
+            Task06.userChar(); 
         }
     }
 }
